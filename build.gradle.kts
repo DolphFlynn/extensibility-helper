@@ -12,7 +12,7 @@ repositories {
 dependencies {
     compileOnly("net.portswigger.burp.extensions:montoya-api:2025.8")
     testImplementation("org.junit.jupiter:junit-jupiter:5.13.4")
-    testImplementation("org.assertj:assertj-core:3.27.4")
+    testImplementation("org.assertj:assertj-core:3.27.6")
     testImplementation("org.mockito:mockito-core:5.19.0")
     testImplementation("net.portswigger.burp.extensions:montoya-api:2025.8")
 
