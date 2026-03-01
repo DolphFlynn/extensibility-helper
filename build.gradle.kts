@@ -10,11 +10,11 @@ repositories {
 }
 
 dependencies {
-    compileOnly("net.portswigger.burp.extensions:montoya-api:2025.12")
+    compileOnly("net.portswigger.burp.extensions:montoya-api:2026.2")
     testImplementation("org.junit.jupiter:junit-jupiter:6.0.2")
     testImplementation("org.assertj:assertj-core:3.27.7")
     testImplementation("org.mockito:mockito-core:5.21.0")
-    testImplementation("net.portswigger.burp.extensions:montoya-api:2025.12")
+    testImplementation("net.portswigger.burp.extensions:montoya-api:2026.2")
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
